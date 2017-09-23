@@ -44,6 +44,6 @@
 <img src="http://chart.googleapis.com/chart?cht=tx&chl=\Large%20http://chart.googleapis.com/chart?cht=tx&chl=\Large%20Cal.P\left%20[%20key%20\right%20]=(L.Parent[key]+R.Parent[key])-|L.Parent[key]-R.Parent[key]|">
 <br><br>
 計算子類別興趣配對分數:<br>
-<img src="http://chart.googleapis.com/chart?cht=tx&chl=\Large%20http://chart.googleapis.com/chart?cht=tx&chl=\Large%20Cal.C[key] = \frac{L.Child[key]\bigcap R.Child[key]}{L.Child[key]\bigcup R.Child[key] }">
+<img src="http://chart.googleapis.com/chart?cht=tx&chl=\Large%20Cal.C[key]%20=%20\frac{L.Child[key]\bigcap%20R.Child[key]}{L.Child[key]\bigcup%20R.Child[key]%20}">
   </li>
 </ul>

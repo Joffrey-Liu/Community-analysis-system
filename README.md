@@ -28,14 +28,13 @@
 <h3>主要技術</h3>
 <hr>
 <ul>
-  <li><b>Google Cloud Vision:</b> <p>透過<a href="https://cloud.google.com/vision/?hl=zh-tw">Google Cloud Vision api</a> 我們能夠將使用者所上傳的照片進行物件分析，來得知使用者所拍照的內容為何．<br> 下列為執行影像辨識方式：<pre><code>export PATH={PATH};</code></pre>
+  <li><b>Google Cloud Vision:</b> <br>透過<a href="https://cloud.google.com/vision/?hl=zh-tw">Google Cloud Vision api</a> 我們能夠將使用者所上傳的照片進行物件分析，來得知使用者所拍照的內容為何．<br> 下列為執行影像辨識方式：<pre><code>export PATH={PATH};</code></pre>
     <pre><code>export GOOGLE_APPLICATION_CREDENTIALS={googlecloudvision.json};</code></pre>
     <pre><code>mvn exec:java -Dexec.mainClass={Detect} \-DpropertyName=propertyValue \-Dexec.args='$para'</code></pre>
-    </p>
+    
   </li>
-  <li><b>資料搜集與分析方法:</b>
-    <p>
-    </p>
-      
+  <li><b>資料搜集與分析方法:</b><br>透過使用者所上傳的照片資訊，我們能夠取得照片所拍攝的GPS資訊。我們經由將GPS轉換成台灣縣市區域，以分析個人活動範圍與生活足跡。我們透過人們的照片GPS資訊來計算出兩人的生活圈相近分數。<br>在興趣比對上，我們將使用者的照片資訊分成美食、運動、活動、寵物以及風景五種類別。而在各類別中我們有依照圖片將資訊分成各個細項，我們將及稱為父類別及子類別來進行比對運算。在父類別的運算中能夠看出兩人的興趣是否相近，然而這並不能代表實際興趣內容是否符合，所以必須進一步透過子類別來進行判斷。<br>
+      
+  
   </li>
 </ul>

@@ -29,13 +29,13 @@
 <hr>
 <ul>
   <li>
-    <h2>
+    <h4>
       Google Cloud Vision
-    </h2>
+    </h4>
   </li>
   <li>
-    <h2>
-      資料搜集與分析方法
-    </h2>  
+    <h4>
+     資料搜集與分析方法
+    </h4>  
   </li>
 </ul>

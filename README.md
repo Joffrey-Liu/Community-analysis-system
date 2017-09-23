@@ -28,6 +28,14 @@
 <h3>主要技術</h3>
 <hr>
 <ul>
-  <li></li>
-  <li></li>
+  <li>
+    <h2>
+      Google Cloud Vision
+    </h2>
+  </li>
+  <li>
+    <h2>
+      資料搜集與分析方法
+    </h2>  
+  </li>
 </ul>

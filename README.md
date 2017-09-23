@@ -47,3 +47,7 @@
 <img src="http://chart.googleapis.com/chart?cht=tx&chl=\Large%20Cal.C[key]%20=%20\frac{L.Child[key]\bigcap%20R.Child[key]}{L.Child[key]\bigcup%20R.Child[key]%20}">
   </li>
 </ul>
+<h3>成果與結論</h3>
+<hr>
+使用者能夠在網頁上選取兩個人來進行興趣配對分析，分析結果會以圖形化結果呈現。兩人的興趣傾向會以雷達圖顯示。而兩人的所有類別項目
+會以長條圖顯示。最後以地圖表示兩人的生活圈符合區域。

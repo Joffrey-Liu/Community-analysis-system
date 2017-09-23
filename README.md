@@ -28,14 +28,14 @@
 <h3>主要技術</h3>
 <hr>
 <ul>
-  <li><h4>Google Cloud Vision:</h4> <p>透過<a href="https://cloud.google.com/vision/?hl=zh-tw">Google Cloud Vision api</a> 我們能夠將使用者所上傳的照片進行物件分析，來得知使用者所拍照的內容為何．<pre><code>export PATH=/opt/apache-maven-3.5.0/bin:$PATH;</code></pre>
+  <li><h4>Google Cloud Vision:</h4> <p>透過<a href="https://cloud.google.com/vision/?hl=zh-tw">Google Cloud Vision api</a> 我們能夠將使用者所上傳的照片進行物件分析，來得知使用者所拍照的內容為何．<br> 下列為執行影像辨識方式：<pre><code>export PATH=/opt/apache-maven-3.5.0/bin:$PATH;</code></pre>
     <pre><code>export GOOGLE_APPLICATION_CREDENTIALS=/var/www/html/test/googlecloudvision-2d676e3cdba7.json;</code></pre>
     <pre><code>mvn exec:java -Dexec.mainClass=com.example.vision.Detect \-DpropertyName=propertyValue \-Dexec.args='$para'</code></pre>
     </p>
   </li>
   <li><h4>資料搜集與分析方法:</h4>
     <p>
-      </p>
+    </p>
       
   </li>
 </ul>

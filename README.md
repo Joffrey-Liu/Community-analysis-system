@@ -1,6 +1,6 @@
 <h1>Community-analysis-system</h1>
 <h2>系統介紹</h3>
-<hr>
+
 <h4>
 <p>
 首先，手機上傳照片是利用Android連結網頁PHP程式碼進行照片儲存．再來，將圖片進行Google cloud Vision影像辨識將相片

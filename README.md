@@ -49,6 +49,6 @@
 </ul>
 <h3>成果與結論</h3>
 <hr>
-使用者能夠在網頁上選取兩個人來進行興趣配對分析，分析結果會以圖形化結果呈現。兩人的興趣傾向會以雷達圖顯示。而兩人的所有類別項目
-會以長條圖顯示。最後以地圖表示兩人的生活圈符合區域。<a href="https://www.youtube.com/watch?v=_8ftVyFnn24&t=4s">Demo影片</a>
+使用者能夠在網頁上選取兩個人來進行興趣配對分析，分析結果會以圖形化結果呈現。兩人的興趣傾向會以雷達圖(左一圖)顯示。而兩人的所有類別項目
+會以長條圖顯示(中間圖)。最後以地圖表示兩人的生活圈符合區域(右一圖)。<a href="https://www.youtube.com/watch?v=_8ftVyFnn24&t=4s">Demo影片</a>
 <img src="https://user-images.githubusercontent.com/32201219/30774381-381ee45e-a0b4-11e7-9889-151fab4c54ea.PNG">

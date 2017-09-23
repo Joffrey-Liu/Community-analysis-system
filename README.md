@@ -19,7 +19,7 @@
 <p>
 最後，再利用資料視覺化方式來將資料分析結果呈現至網頁上．
 </p>
-<img src="https://user-images.githubusercontent.com/32201219/30769912-69c59c50-a055-11e7-8126-494af8699f4d.png">
+<img style="width: 100%; align:auto;" src="https://user-images.githubusercontent.com/32201219/30769912-69c59c50-a055-11e7-8126-494af8699f4d.png">
 </h4>
 
 

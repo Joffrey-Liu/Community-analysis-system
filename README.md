@@ -33,9 +33,15 @@
     <pre><code>mvn exec:java -Dexec.mainClass={Detect} \-DpropertyName=propertyValue \-Dexec.args='$para'</code></pre>
     
   </li>
-  <li><b>資料搜集與分析方法:</b><br>透過使用者所上傳的照片資訊，我們能夠取得照片所拍攝的GPS資訊。我們經由將GPS轉換成台灣縣市區域，以分析個人活動範圍與生活足跡。我們透過人們的照片GPS資訊來計算出兩人的生活圈相近分數。<br>在興趣比對上，我們將使用者的照片資訊分成美食、運動、活動、寵物以及風景五種類別。而在各類別中我們有依照圖片將資訊分成各個細項，我們將及稱為父類別及子類別來進行興趣比對運算。<br>運算公式如下: <br>
-計算各子類別總數:<br><br>
+  <li><b>資料搜集與分析方法:</b><br>透過使用者所上傳的照片資訊，我們能夠取得照片所拍攝的GPS資訊。我們經由將GPS轉換成台灣縣市區域，以分析個人活動範圍與生活足跡。我們透過人們的照片GPS資訊來計算出兩人的生活圈相近分數。<br>在興趣比對上，我們將使用者的照片資訊分成美食、運動、活動、寵物以及風景五種類別。而在各類別中我們有依照圖片將資訊分成各個細項，我們將及稱為父類別及子類別來進行興趣比對運算。<br>運算公式如下: <br><br>
+計算各子類別總數:<br>
  <img src="http://chart.googleapis.com/chart?cht=tx&chl=\Large%20Child\left%20[%20key%20\right%20]=\sum%20Category\left%20[%20key%20\right%20]">
-
+ <br><br>
+ 計算各父類別總數:<br>
+ <img src="http://chart.googleapis.com/chart?cht=tx&chl=\Large%20Parents\left[key\right]=\sum%20Category\left[element\right]">
+<br><br>
+計算父類別興趣配對分數:<br>
+<img src="http://chart.googleapis.com/chart?cht=tx&chl=\Large%20http://chart.googleapis.com/chart?cht=tx&chl=\Large%20Cal.P\left%20[%20key%20\right%20]=(L.Parent[key]+R.Parent[key])-|L.Parent[key]-R.Parent[key]|">
+<br><br>
   </li>
 </ul>

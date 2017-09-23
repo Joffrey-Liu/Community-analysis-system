@@ -28,8 +28,8 @@
 <h3>主要技術</h3>
 <hr>
 <ul>
-  <li>Google Cloud Vision: 透過<a href="https://cloud.google.com/vision/?hl=zh-tw">Google Cloud Vision api</a> 我們能夠將使用者所上傳的照片進行物件分析，來得知使用者所拍照的內容為何．
-    
+  <li><h4>Google Cloud Vision:</h4> <p>透過<a href="https://cloud.google.com/vision/?hl=zh-tw">Google Cloud Vision api</a> 我們能夠將使用者所上傳的照片進行物件分析，來得知使用者所拍照的內容為何．
+    </p>
   </li>
   <li>資料搜集與分析方法
       
